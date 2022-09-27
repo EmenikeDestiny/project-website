@@ -18,9 +18,9 @@ body{
 }
 .text{
     color: #fdfbfb;
-    /* background-image: linear-gradient(rgb(127, 166, 218),rgb(127, 166, 218)),url(../project/apple-laptop-500x500.jpg);
+    /* background-image: linear-gradient(rgb(127, 166, 218),rgb(127, 166, 218)),url(../project/images/apple-laptop-500x500.jpg);
      */
-     background-image:linear-gradient(rgba(57, 39, 214,0.5),rgba(70, 52, 230,0.5)), url(../project/Shopping_interior@AmfiNarvik_web\ \(1\).png);
+     background-image:linear-gradient(rgba(57, 39, 214,0.5),rgba(70, 52, 230,0.5)), url(../project/images/Shopping_interior@AmfiNarvik_web\ \(1\).png);
      background-repeat: no-repeat;
      background-size: cover;
 height: 500px;
