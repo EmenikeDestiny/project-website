@@ -1,0 +1,65 @@
+*,*::before, ::after{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.img{
+    float: right;
+}
+#navbar{
+    background-color: black;
+}
+#card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.text{
+    color: #fdfbfb;
+    /* background-image: linear-gradient(rgb(127, 166, 218),rgb(127, 166, 218)),url(../project/apple-laptop-500x500.jpg);
+     */
+     background-image:linear-gradient(rgba(57, 39, 214,0.5),rgba(70, 52, 230,0.5)), url(../project/Shopping_interior@AmfiNarvik_web\ \(1\).png);
+     background-repeat: no-repeat;
+     background-size: cover;
+height: 500px;
+font-size: 60px;
+text-align: center;
+font-family: algerian;
+animation-duration: 2s;
+animation-name: slidein;
+animation-iteration-count: inherit;
+}
+#class{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+/* #txt_ml-r{
+    margin-right: 5px;
+    margin-left:5px;
+} */
+#p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  /* .card{
+ background-image: url(../project/apple-laptop-500x500.jpg);
+    
+background-repeat: no-repeat;
+background-size: cover;
+padding:8rem
+  } */
+  
